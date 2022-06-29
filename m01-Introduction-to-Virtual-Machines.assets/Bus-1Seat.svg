@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication required</title>
+
+    
+
+    <script>var Browser = {isIE: false};</script>
+    <!--[if IE]>
+    <script>Browser = {isIE: true};</script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/static/XwHe405IGBkc1pEkIvFCGCvuDGYKVYftoH5XcMdXP9h.css" type="text/css">
+
+    <script type="text/javascript">
+        document.domain = "bravais.com";
+
+        function loginInNewWindow() {
+            window.authPopupWindow = window.open('', '', "width=850 , height=570");
+            fetch('/api/v3/authenticate?returnUrl=/authenticationSuccess')
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (result) {
+                    function waitForPopupWindowOpen() {
+                        if (window.authPopupWindow) {
+                            window.authPopupWindow.location = result.loginUrl;
+                            window.authPopupWindow.focus();
+                        } else {
+                            setTimeout(waitForPopupWindowOpen, 200);
+                        }
+                    }
+
+                    waitForPopupWindowOpen();
+                }, function () {
+                    console.log('Unable to get authentication url: ' + status + '.');
+                });
+        }
+
+        function getUrlParam(location, name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                .exec(location);
+            if (results == null) {
+                return 0;
+            }
+            return results[1] || 0;
+        }
+
+        function proceedToLoginUrl() {
+            if (typeof (URLSearchParams) != "undefined") {
+                var urlParams = new URLSearchParams(window.location.search);
+                window.location = urlParams.get("pg");
+            } else {
+                window.location = getUrlParam(window.location, "pg");
+            }
+        }
+    </script>
+</head>
+
+<body hidden="true" class="package-content">
+
+<div class="inform-content">
+    <div class="header">
+        <img src="/static/Kj5ugIsKic7S88BmjzoUIjbl6hUcPffBOqKtftvW1rV.svg" alt="announcement">
+        <span class="course-not-launched">
+            <span class="translation english">Authentication required</span>
+            <span class="translation french hidden">Identification requise</span>
+            <span class="translation spanish hidden">Autenticacion requerida</span>
+            <span class="translation chinese hidden">需要身份证明</span>
+        </span>
+    </div>
+
+    <div id="notification-text-div" class="notification-text">
+        <div id="notification-english" class="translation english">
+            Please authenticate to continue to your content.
+        </div>
+
+        <div id="notification-french" class="translation french hidden">
+            Identifiez-vous pour accéder à votre contenu.
+        </div>
+
+        <div id="notification-spanish" class="translation spanish hidden">
+            Autentíquese para continuar con su contenido.
+        </div>
+
+        <div id="notification-chinese" class="translation chinese hidden">
+            标识您自己以访问您的内容。
+        </div>
+    </div>
+
+    <div id="launch-button-div">
+        <a id="loginLink" onclick="loginInNewWindow()" target="_blank"
+           class="btn btn-primary" role="button">
+            <span id="launch-english" class="translation english">Authenticate</span>
+            <span id="launch-french" class="translation french hidden">Authentifier</span>
+            <span id="launch-spanish" class="translation spanish hidden">Autenticarse</span>
+            <span id="launch-chinese" class="translation chinese hidden">证明你的身份</span>
+        </a>
+    </div>
+
+    <div class="language-selector">
+        <a class="lang-button english" onclick="changeLanguage(english)">English</a>
+        <a class="lang-button french" onclick="changeLanguage(french)">Français</a>
+        <a class="lang-button spanish" onclick="changeLanguage(spanish)">Español</a>
+        <a class="lang-button chinese" onclick="changeLanguage(chinese)">中文</a>
+    </div>
+</div>
+<script src="/static/JPDwInWAAQXiDiCa3crvnxnSdueXplsSRUYp89nHwcM.js" type="text/javascript" ></script>
+
+<link href="/static/trQexUPjnC9Kl5iXsdM6mFt1L4zybu4uTsOBipY7cTW.css" type="text/css" rel="stylesheet" media="screen, projection" />
+
+
+<script type="text/javascript">
+    if (window.top !== window) {
+        document.body.hidden = false;
+        loginInNewWindow();
+    } else {
+        proceedToLoginUrl();
+    }
+</script>
+<script src="/static/K03gGrnNo5Yrz1qZiXRjgGRKHoQx9u7lfJfoJb4UmRd.js"></script>
+</body>
+</html>

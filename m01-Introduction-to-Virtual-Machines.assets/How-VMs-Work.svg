@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="220"
+   width="220"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 220 220"
+   enable-background="new 0 0 223.8 219.3"
+   xml:space="preserve"
+   sodipodi:docname="How-VMs-Work.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"><metadata
+   id="metadata142"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs140">
+	
+	
+	
+	
+
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   inkscape:document-rotation="0"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview138"
+   showgrid="false"
+   inkscape:zoom="1.9379845"
+   inkscape:cx="158.78263"
+   inkscape:cy="122.51443"
+   inkscape:window-x="1912"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<rect
+   y="0.499998"
+   x="0.499998"
+   style="stroke:none;stroke-width:0.999996;stroke-opacity:1"
+   fill="#ffffff"
+   width="219"
+   height="219"
+   id="rect2" />
+
+
+
+
+
+
+<g
+   style="stroke-width:0.928743"
+   transform="matrix(1.1593361,0,0,1,-17.526972,0)"
+   id="g2039"><path
+     style="stroke-width:1.03193"
+     fill="#020202"
+     d="m 186.9095,144.19721 v 34.263 H 32.928499 v -34.263 H 186.9095 m 4.293,-4.293 H 28.797499 v 42.687 H 191.2025 Z"
+     id="path4" /><path
+     style="stroke-width:1.03193"
+     fill="#020202"
+     d="m 109.7165,156.02321 v 0 c 2.592,0 4.536,1.782 5.103,4.293 0.405,2.754 -1.377,5.508 -4.293,5.913 -0.405,0 -0.405,0 -0.81,0 -2.592,0 -4.536,-1.782 -5.103,-4.293 -0.405,-2.754 1.377,-5.508 4.293,-5.913 0,0 0.405,0 0.81,0 m 0,-3.321 c -0.405,0 -0.972,0 -1.377,0.162 -4.536,0.81 -7.857,5.103 -7.128,9.882 0.81,4.131 4.293,7.128 8.262,7.128 0.405,0 0.972,0 1.377,-0.162 4.536,-0.81 7.857,-5.103 7.128,-9.882 -0.81,-4.212 -4.374,-7.128 -8.262,-7.128 z"
+     id="path6" /><g
+     style="stroke-width:1.14659"
+     id="g14"
+     transform="matrix(0.81,0,0,0.81,17.862499,45.134206)">
+		<rect
+   style="stroke-width:1.27399"
+   x="27.799999"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect8" />
+		<rect
+   style="stroke-width:1.27399"
+   x="38.299999"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect10" />
+		<rect
+   style="stroke-width:1.27399"
+   x="48.700001"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect12" />
+	</g><g
+     style="stroke-width:1.14659"
+     id="g22"
+     transform="matrix(0.81,0,0,0.81,17.862499,45.134206)">
+		<rect
+   style="stroke-width:1.27399"
+   x="170"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect16" />
+		<rect
+   style="stroke-width:1.27399"
+   x="180.7"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect18" />
+		<rect
+   style="stroke-width:1.27399"
+   x="191.10001"
+   y="132.8"
+   fill="#020202"
+   width="5.3000002"
+   height="21.1"
+   id="rect20" />
+	</g></g><rect
+   style="font-variation-settings:normal;vector-effect:none;fill:#78be20;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;opacity:1;stop-opacity:1"
+   id="rect1457-3"
+   width="34.154228"
+   height="197.53241"
+   x="97.041313"
+   y="-208.7662"
+   transform="rotate(90)" /><text
+   y="119.94021"
+   x="24.250622"
+   font-family="'Metropolis-Regular'"
+   font-size="12px"
+   id="text1103-3-1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Metropolis;-inkscape-font-specification:'Metropolis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;"><tspan
+     y="119.94021"
+     x="24.250622"
+     id="tspan1651"
+     sodipodi:role="line">Virtualization Software</tspan></text><text
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Metropolis;-inkscape-font-specification:'Metropolis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="text1103-3-1-3"
+   font-size="12px"
+   font-family="'Metropolis-Regular'"
+   x="32.731247"
+   y="202.48387"><tspan
+     y="202.48387"
+     x="32.731247"
+     id="tspan1711"
+     sodipodi:role="line">Computer Hardware</tspan></text><g
+   style="stroke-width:0.573197;"
+   transform="matrix(1.7162194,0,0,1.7734524,-248.9676,-105.65329)"
+   id="g32-9"><path
+     style="stroke-width:0.440921;"
+     id="path26-6"
+     d="m 205.8,106 v 0 l -41.6,-0.2 c -0.4,0 -0.7,-0.2 -1,-0.5 -0.3,-0.3 -0.3,-0.7 -0.1,-1.1 l 8.2,-22.4 c 0.2,-0.5 0.6,-0.8 1.1,-0.8 h 40.3 c 0.4,0 0.7,0.2 1,0.5 0.2,0.3 0.3,0.7 0.2,1.1 l -7,22.6 c -0.2,0.4 -0.6,0.8 -1.1,0.8 z m -41.4,-1.4 z m 0.1,-0.3 41.1,0.2 6.8,-22.1 h -39.8 z"
+     fill="#1e4488" /><path
+     style="stroke-width:0.440921;"
+     id="path28-3"
+     d="m 161.7,100.8 h -1.4 V 68.6 c 0,-0.4 0.3,-0.7 0.7,-0.7 h 14.9 c 0.2,0 0.3,0.1 0.5,0.2 l 3,2.7 h 24.2 v 1.4 h -24.5 c -0.2,0 -0.3,-0.1 -0.5,-0.2 l -3,-2.7 h -13.9 z"
+     fill="#1e4488" /><path
+     style="stroke-width:0.440921;"
+     id="path30-1"
+     d="M 166.4,86.5 H 165 V 76.1 c 0,-0.4 0.3,-0.7 0.7,-0.7 h 41.7 c 0.4,0 0.7,0.3 0.7,0.7 V 79 h -1.4 v -2.2 h -40.2 v 9.7 z"
+     fill="#1e4488" /></g><text
+   y="50.744911"
+   x="130.67513"
+   font-family="'Metropolis-Regular'"
+   font-size="12px"
+   id="text1103-3-1-3-5"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Metropolis;-inkscape-font-specification:'Metropolis, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"><tspan
+     id="tspan2055"
+     sodipodi:role="line">VM Files</tspan></text></svg>
